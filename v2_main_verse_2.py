@@ -78,7 +78,7 @@ def welcome_text():
     oled.text("project!", 33, 37, 0)
     oled.show()
     utime.sleep_ms(2000)
-# welcome_text()
+welcome_text()
 # Rotary Encoder
 
 class Encoder:
